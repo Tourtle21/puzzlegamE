@@ -3,7 +3,7 @@ import Squares from "./squares"
 var Board = React.createClass({
   render: function() {
     var createBoard = function (number) {
-      return (<Squares key={number} inner={number} />)
+      return (<Squares key={number} style={number}/>)
     }
     var arry = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
     var cool = function(arry) {
